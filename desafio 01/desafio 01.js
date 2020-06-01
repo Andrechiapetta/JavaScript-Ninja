@@ -32,17 +32,17 @@ console.log(`comida = [´arroz´, ´feijão´, ´ovo´]`)
 
 console.log(`// Digite a instrução que imprime o valor de 'feijao', que está na variável comida.`)
 console.log(`comida[1]`)
-console.log(comida[1])
+console.log(`${comida[1]}\n`)
 
-// Digite o código que verifica se a variável `soma' é igual a variável `myvar` (testando também o tipo).
+console.log(`// Digite o código que verifica se a variável soma é igual a variável myvar (testando também o tipo).`)
 soma === myvar
 console.log(`soma === myvar (${soma === myvar})\n`)
 
-// Digite o código que verifica se a variável `myvar` é menor ou igual à variável `soma`.
+console.log(`// Digite o código que verifica se a variável myvar é menor ou igual à variável soma.`)
 myvar <= soma
 console.log(`myvar <= soma (${myvar <= soma})\n`)
 
-// Crie uma função chamada `divisao` que receba como parâmetro dois números, e retorne o resultado da divisão entre eles.
+console.log(`// Crie uma função chamada divisao que receba como parâmetro dois números, e retorne o resultado da divisão entre eles.`)
 function divisao(x,y) {
     return x / y
 }
@@ -50,6 +50,6 @@ console.log(`function divisao(x,y) {
     return x / y
 }`)
 
-// Invoque a função criada acima, passando os parâmetros 10 e 2
+console.log(`// Invoque a função criada acima, passando os parâmetros 10 e 2`)
 divisao(10,2)
 console.log(`divisao(10,2) = ${divisao(10,2)}`)
