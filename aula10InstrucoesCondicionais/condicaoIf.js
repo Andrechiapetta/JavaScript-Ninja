@@ -58,3 +58,27 @@ console.log(`if( x === 5 ) {
     y = 10;
 }`)
 console.log(`O Valor de y é ${y}\n`)
+
+console.log(`Utilizamos o else if para fazer varias verificações de blocos`)
+
+if( x === 2 ) {
+    y = 2;
+}   else if( x === y ) {
+    x = 10;
+    y = 100;
+} else {
+    x = 0;
+    y = 0;
+}
+
+console.log(`if( x === 2 ) {
+    y = 2;
+}   else if( x === y ) {
+    x = 10;
+    y = 100;
+} else {
+    x = 0;
+    y = 0;
+}`)
+
+console.log(`O Valor de x é ${x} e o valor de y é ${y}\n`)
