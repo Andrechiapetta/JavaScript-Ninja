@@ -53,7 +53,6 @@ console.log(`/*
 O novo valor de x é 10
 */\n`)
 
-
 /*
 Crie uma função com as seguintes características:
 1. A função deve receber 3 argumentos;
