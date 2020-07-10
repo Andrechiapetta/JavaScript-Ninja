@@ -42,15 +42,16 @@ console.log(`function addValue() {
 
 console.log(`Invoque a função criada acima.\n`)
 
+addValue();
 
-addValue = addValue();
+console.log(`addValue();`)
+console.log(`${addValue()}`)
 
-console.log(`addValue = addValue();
-console.log(addValue)`)
+console.log(`Qual o retorno da função? (Use comentários de bloco).\n`) 
 
-console.log(`${addValue}\n`)
-
-// Qual o retorno da função? (Use comentários de bloco).
+console.log(`/*
+O novo valor de x é 10
+*/\n`)
 
 
 /*
