@@ -29,11 +29,26 @@ console.log(`Crie uma função que adicione um valor à variável criada acima, 
     O valor da variável agora é VALOR.
 Onde VALOR é o novo valor da variável.\n`)
 
+function addValue() {
+    x = 10;
+    return `O novo valor de x é ${x}\n`
+}
+
+console.log(`function addValue() {
+    x = 10;
+    return "O novo valor de x é $ {x}"
+}\n`)
 
 
+console.log(`Invoque a função criada acima.\n`)
 
-// Invoque a função criada acima.
 
+addValue = addValue();
+
+console.log(`addValue = addValue();
+console.log(addValue)`)
+
+console.log(`${addValue}\n`)
 
 // Qual o retorno da função? (Use comentários de bloco).
 
