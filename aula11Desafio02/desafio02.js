@@ -10,13 +10,13 @@ console.log(`function soma(x, y) {
 
 console.log("Declare uma variável que receba a invocação da função criada acima, passando dois números quaisquer por argumento, e somando `5` ao resultado retornado da função.\n") 
 
-soma = soma(1, 1) + 5
+var soma = soma(1, 1) + 5;
 
-console.log(`soma = soma(1, 1) + 5`)
+console.log(`var soma = soma(1, 1) + 5;\n`)
 
-console.log(`O valor de soma é ${soma}`)
+console.log(`Qual o valor atualizado dessa variável?\n`) 
 
-// Qual o valor atualizado dessa variável?
+console.log(`O valor de soma é ${soma}\n`)
 
 
 // Declare uma nova variável, sem valor.
