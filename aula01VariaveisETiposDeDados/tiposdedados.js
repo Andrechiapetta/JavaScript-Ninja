@@ -1,3 +1,4 @@
+//Variáveis e tipos de dados
 string = `Hello World`
 console.log(string)
 console.log(`${typeof string}\n`)
