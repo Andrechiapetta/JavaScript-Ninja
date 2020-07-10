@@ -18,15 +18,18 @@ console.log(`Qual o valor atualizado dessa variável?\n`)
 
 console.log(`O valor de soma é ${soma}\n`)
 
+console.log(`Declare uma nova variável, sem valor.\n`)
 
-// Declare uma nova variável, sem valor.
+var x;
+console.log(`var x;`)
 
+console.log(`o valor de x é ${x}\n`)
 
-/*
-Crie uma função que adicione um valor à variável criada acima, e retorne a string:
+console.log(`Crie uma função que adicione um valor à variável criada acima, e retorne a string:
     O valor da variável agora é VALOR.
-Onde VALOR é o novo valor da variável.
-*/
+Onde VALOR é o novo valor da variável.\n`)
+
+
 
 
 // Invoque a função criada acima.
