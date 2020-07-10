@@ -3,8 +3,18 @@ console.log("Crie uma função que receba dois argumentos e retorne a soma dos m
 function soma(x, y) {
     return x + y;
 }
-// Declare uma variável que receba a invocação da função criada acima, passando dois números quaisquer por argumento, e somando `5` ao resultado retornado da função.
 
+console.log(`function soma(x, y) {
+    return x + y;
+}\n`)
+
+console.log("Declare uma variável que receba a invocação da função criada acima, passando dois números quaisquer por argumento, e somando `5` ao resultado retornado da função.\n") 
+
+soma = soma(1, 1) + 5
+
+console.log(`soma = soma(1, 1) + 5`)
+
+console.log(`O valor de soma é ${soma}`)
 
 // Qual o valor atualizado dessa variável?
 
